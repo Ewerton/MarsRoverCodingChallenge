@@ -20,6 +20,8 @@ In order to control a rover, NASA sends a simple string of letters. The possible
 
 Assume that the square directly North from (x, y) is (x, y+1).
 
+Since the grid is rectangular and bounded (…yes Mars is a strange planet), a robot that moves “off” an edge of the grid is lost forever. However, lost robots leave a robot “scent” that prohibits future robots from dropping off the world at the same grid point. The scent is left at the last grid position the robot occupied before disappearing over the edge. An instruction to move “off” the world from a grid point from which a robot has been previously lost is simply ignored by the current robot.
+
 ### Input:
 
 The first line of input is the upper-right coordinates of the plateau, the lower-left coordinates are assumed to be 0,0.
@@ -63,6 +65,7 @@ The class library is tested using xUnit.
 
 ## To do:
 - [ ] Create a class to represent the plateau
+  - [ ] Register when an rover
 - [ ] Prevent rovers from going out of bounds
 - [ ] Prevent rovers from colliding with each other
 - [ ] Create a method to parse the input
