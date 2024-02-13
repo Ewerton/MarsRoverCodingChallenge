@@ -36,16 +36,23 @@ The output for each rover should be its final co-ordinates and heading.
 
 **Test Input:**
 `5 5`
+
 `1 2 N`
+
 `LMLMLMLMM`
+
 `3 3 E`
+
 `MMRMMRMRRM`
 
 **Expected Output:**
 `1 3 N`
+
 `5 1 E`
 
-See (https://github.com/Ewerton/MarsRoverCodingChallenge/blob/main/RoverOnMarsTests/TestRover1.cs) and (https://github.com/Ewerton/MarsRoverCodingChallenge/blob/main/RoverOnMarsTests/TestRover2.cs) which reproduces the following input
+See 
+- [TestRover1](https://github.com/Ewerton/MarsRoverCodingChallenge/blob/main/RoverOnMarsTests/TestRover1.cs) Reproduces the movement of the first rover from the example input
+- [TestRover2](https://github.com/Ewerton/MarsRoverCodingChallenge/blob/main/RoverOnMarsTests/TestRover2.cs) Reproduces the movement of the second rover from the example input
 
 
 # Solution
