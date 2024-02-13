@@ -51,8 +51,8 @@ The output for each rover should be its final co-ordinates and heading.
 `5 1 E`
 
 See 
-- [TestRover1](https://github.com/Ewerton/MarsRoverCodingChallenge/blob/main/RoverOnMarsTests/TestRover1.cs) Reproduces the movement of the first rover from the example input
-- [TestRover2](https://github.com/Ewerton/MarsRoverCodingChallenge/blob/main/RoverOnMarsTests/TestRover2.cs) Reproduces the movement of the second rover from the example input
+- [TestRover1](https://github.com/Ewerton/MarsRoverCodingChallenge/blob/main/RoverOnMarsTests/TestRover1.cs) Reproduces the movement of the **first** rover from the example input
+- [TestRover2](https://github.com/Ewerton/MarsRoverCodingChallenge/blob/main/RoverOnMarsTests/TestRover2.cs) Reproduces the movement of the **second** rover from the example input
 
 
 # Solution
