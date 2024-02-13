@@ -45,6 +45,8 @@ The output for each rover should be its final co-ordinates and heading.
 `1 3 N`
 `5 1 E`
 
+See (https://github.com/Ewerton/MarsRoverCodingChallenge/blob/main/RoverOnMarsTests/TestRover1.cs) and (https://github.com/Ewerton/MarsRoverCodingChallenge/blob/main/RoverOnMarsTests/TestRover2.cs) which reproduces the following input
+
 
 # Solution
 Created a class library to represent the rovers and their movements, this way the "solution" can be provided to anyone who needs to move rovers around mars, or, anyone who need to provide some graphical representation of the rovers.
